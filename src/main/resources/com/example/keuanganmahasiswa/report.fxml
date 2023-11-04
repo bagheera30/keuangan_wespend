@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="495.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.keuanganmahasiswa.controller.ReportController">
+   <children>
+      <Label layoutX="90.0" layoutY="45.0" text="Total Masuk" />
+      <Label layoutX="92.0" layoutY="84.0" text="Total Keluar" />
+      <TextField fx:id="masuk" layoutX="167.0" layoutY="41.0" prefHeight="25.0" prefWidth="166.0" />
+      <TextField fx:id="keluar" layoutX="167.0" layoutY="80.0" prefHeight="25.0" prefWidth="166.0" />
+      <TextField fx:id="total" layoutX="167.0" layoutY="131.0" prefHeight="25.0" prefWidth="166.0" />
+      <Label layoutX="90.0" layoutY="135.0" text="Grand Total" />
+      <TextField fx:id="keluarpersen" layoutX="359.0" layoutY="80.0" prefHeight="25.0" prefWidth="63.0" />
+   </children>
+</AnchorPane>
